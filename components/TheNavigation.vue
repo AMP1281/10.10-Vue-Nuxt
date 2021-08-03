@@ -2,25 +2,32 @@
 
     <div>
 
-        <b-navbar toggleable="lg" type="dark" variant="dark"> <!-- toggleable = responsive en md -->
+       
+        <b-navbar toggleable="lg" type="dark" variant="dark" class="d-flex flex-row justify-content-around align-items-center"> <!-- toggleable = responsive en md -->
 
-            <b-navbar-brand href="#" class="col-md-3 d-flex justify-content-center align-items-center w-25">IT ACADEMY</b-navbar-brand>
+<!--col1-->
 
-                <b-navbar-toggle target="nav-collapse"></b-navbar-toggle> <!--Es el Sandwich button-->
+            <b-navbar-brand href="#" class="w-25">IT ACADEMY</b-navbar-brand>
 
-                    <b-collapse id="nav-collapse" is-nav> <!--Dentro del sandwich en md (id)-->
+                <b-navbar-toggle target="nav-collapse" class=""></b-navbar-toggle> <!--Es el Sandwich button-->
 
-                        <b-navbar-nav class="col-md-6 fs-5 w-100 d-flex flex-row justify-content-center align-items-center">
+                    <b-collapse id="nav-collapse" is-nav class=""> <!--Dentro del sandwich en md (id)-->
 
-                            <nuxt-link class="mx-2 px-2" to="/" exact>Home</nuxt-link> <!--b-nav-item actua como router-link(router link es como a)-->
-                            <nuxt-link class="mx-2 px-2" to="/users">Users</nuxt-link>
-                            <nuxt-link class="mx-2 px-2" to="/images">Pictures</nuxt-link>
+<!--col2--> 
+
+                        <b-navbar-nav class="w-100 d-flex flex-colum justify-content-center align-items-center">
+
+                            <b-nav-item class="mx-2" to="/" exact>Home</b-nav-item> <!--b-nav-item actua como router-link(router link es como a)-->
+                            <b-nav-item class="mx-2" to="/users">Users</b-nav-item>
+                            <b-nav-item class="mx-2" to="/images">Pictures</b-nav-item>
 
                         </b-navbar-nav>
 
                     </b-collapse>
 
-                    <b-navbar-nav class="ml-auto col-md-3 d-flex w-25 flex-row justify-content-center align-items-center">
+<!--col3-->                    
+
+                    <b-navbar-nav class="w-25 d-flex flex-row justify-content-center">
 
                         <b-nav-form>
 

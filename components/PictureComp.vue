@@ -10,6 +10,7 @@
                   <div class="card text-center w-100 h100">
 
                         <h5 class="card-header py-4 h-50">
+
                                 Album: {{ item.albumId }}</h5>
 
                         <div class="card-body py-5 h-50">
