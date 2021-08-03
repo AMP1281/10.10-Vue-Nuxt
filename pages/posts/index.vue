@@ -1,7 +1,7 @@
 <template>
     <div>
         
-        <h1 class="danger">Post</h1>
+        <h1 class="text-danger">Post</h1>
         <Post 
         v-for="post of posts"
         :key="post.id"

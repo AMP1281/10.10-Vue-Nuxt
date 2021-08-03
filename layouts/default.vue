@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Navigation/>
+        <TheNavigation/>
         <div class="content">
             <nuxt/>
         </div>
@@ -8,17 +8,17 @@
 </template>
 
 <script>
-import Navigation from '../components/Navigation'
+import TheNavigation from '../components/TheNavigation'
 export default{
     components:{
-        Navigation
+        TheNavigation
     }
 }
 </script>
 
 
 <style>
-*{
+/* *{
     box-sizing: border-box;
     color: whitesmoke;
     text-decoration: none;
@@ -32,6 +32,6 @@ body{
 
 .content{
     padding: 2rem
-}
+} */
 
 </style>
