@@ -27,10 +27,10 @@ export default {
       HomeComponente
   },
 
-  //Este objeto ayuda al SEO,añadimos meta información
+  //(NUXT) Este objeto ayuda al SEO, añadimos meta información
   head(){
     return{
-      title:'Exercici Final amb Nuxt | Home',
+      title:'Exercici amb Nuxt | Home',
       meta:[
         {
         hid:"description",

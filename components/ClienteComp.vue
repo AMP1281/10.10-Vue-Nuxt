@@ -16,7 +16,7 @@
 
                       <p class="card-text">
 
-                            <router-link :to="{ name:'Details', params:{ id:item.id } }">
+                            <router-link :to="{ name:'users-id', params:{ id:item.id } }">
 
                             <b-button @click="aumentar(item.name);pushUsu()"> Detalls</b-button>
 

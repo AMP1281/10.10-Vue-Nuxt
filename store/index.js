@@ -1,12 +1,14 @@
-import Vue from 'vue'
+//import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
 
-Vue.use(Vuex)
+//Vue.use(Vuex)
 
-new Vuex.Store({
 
-    state: () => ({
+const createStore = () => {
+  return new Vuex.Store({
+
+    state:{
 
     usuariosArreglo:[],
     picturesArreglo:[],
@@ -18,7 +20,7 @@ new Vuex.Store({
     buscarNombre:'',
     soloNombre:''
 
-  }),
+  },
   
   getters:{
 
@@ -118,6 +120,11 @@ new Vuex.Store({
 
   },
 
+})
+}
+
+export default createStore
+
           //Llamar con async-await
           /*getUsers: async function({commit}){
               const data = await fetch ('http://jsonplaceholder.typicode.com/users'); //llamamos a la api
@@ -125,4 +132,3 @@ new Vuex.Store({
               commit('llenarUsuarios', usuarios)
           }*/
 
-})

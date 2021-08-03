@@ -13,8 +13,8 @@
                         <b-navbar-nav class="col-md-6 fs-5 w-100 d-flex flex-row justify-content-center align-items-center">
 
                             <nuxt-link class="mx-2 px-2" to="/" exact>Home</nuxt-link> <!--b-nav-item actua como router-link(router link es como a)-->
-                            <nuxt-link class="mx-2 px-2" to="/Users">Users</nuxt-link>
-                            <nuxt-link class="mx-2 px-2" to="/Pictures">Pictures</nuxt-link>
+                            <nuxt-link class="mx-2 px-2" to="/users">Users</nuxt-link>
+                            <nuxt-link class="mx-2 px-2" to="/images">Pictures</nuxt-link>
 
                         </b-navbar-nav>
 

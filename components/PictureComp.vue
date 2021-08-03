@@ -15,7 +15,7 @@
                         <div class="card-body py-5 h-50">
 
                                 <p class="card-text">
-                                    <router-link :to="{name:'PicDetails',params:{id:item.albumId}}">
+                                    <router-link :to="{name:'images-id',params:{id:item.albumId}}">
                                     <b-button @click="aumentarPic(item.albumId);pushPic()"> Detalls</b-button>
                                     </router-link>
                                 </p>
