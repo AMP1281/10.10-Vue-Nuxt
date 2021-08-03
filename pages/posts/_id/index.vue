@@ -7,7 +7,7 @@
 
 <script>
 
-import axios from 'axios'
+//import axios from 'axios'
 export default{
 
     data(){
@@ -16,11 +16,11 @@ export default{
         }
     },
 
-    async created(){
+    //async created(){
 
-        const res = await axios.get('http://jsonplaceholder.typicode.com/users' + this.$route.params.id)
-        this.post = res.data;
-    }
+    //    const res = await axios.get('http://jsonplaceholder.typicode.com/users' + this.$route.params.id)
+    //    this.post = res.data;
+    //}
 }
 </script>
 

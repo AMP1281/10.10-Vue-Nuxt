@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+//import axios from 'axios'
 import Post from '../../components/Post'
 
 export default{
@@ -24,11 +24,11 @@ export default{
             posts:[]
         }
     },
-    async created(){
+    //async created(){
         
-            const res = await axios.get('http://jsonplaceholder.typicode.com/users')
-            this.posts = res.data;
-        } 
+    //    const res = await axios.get('http://jsonplaceholder.typicode.com/users')
+    //        this.posts = res.data;
+    //    } 
     
 }
 </script>

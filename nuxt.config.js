@@ -17,11 +17,10 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/scss/custom.scss'],
+  css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/bootstrap.js'
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -37,21 +36,6 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
   ],
-  // specify module rules for css and scss
-  module: {
-    rules: [
-      {
-        test: /\.s[ac]ss$/i,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
-      },
-    ],
-  },
-  
-  // use these settings to use custom css
-   bootstrapVue: {
-    bootstrapCSS: false,
-    icons: true,
-  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
