@@ -26,7 +26,7 @@
 
                             <b-input-group class="d-flex flex-row justify-content-center align-items-center">
 
-                                <!--<Autocomplete/>-->
+                                <Autocomplete/>
 
                             </b-input-group>
 
@@ -41,12 +41,12 @@
 </template>
 
 <script>
-//import Autocomplete from './Autcomplete.vue'
+import Autocomplete from './Autocomplete.vue'
 export default {
     name: 'TheNavigation',
-    //components: {
-    //  Autocomplete,
-    //},
+    components: {
+      Autocomplete,
+    },
 }
 </script>
 

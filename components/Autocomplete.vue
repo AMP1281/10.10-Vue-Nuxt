@@ -2,7 +2,7 @@
 
 <div>
 
-        <b-nav-item to= "/Users/:id" >
+        <nuxt-link to= "/Users" >
 
             <b-form-input type="text" v-model="userInput" list="resultAutocomplete" placeholder="Username search.."></b-form-input>
 
@@ -12,7 +12,7 @@
 
             </datalist>
 
-        </b-nav-item>
+        </nuxt-link>
  
 </div>
 
